@@ -1,7 +1,8 @@
 $(function() {
-  var d = new Date();
+  var d = new Date(),
+      t = 2000;
 
   setTimeout(function() {
     window.location.reload();
-  }, Math.random()*5000*Math.sin(d.getMinutes()/60*Math.PI)+5000);
+  }, Math.random()*t/5 + (t*Math.sin(d.getMinutes()/60*Math.PI)+t));
 });
