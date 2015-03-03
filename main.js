@@ -8,7 +8,7 @@ $(function() {
 
   if(Math.random() > 0.6) {
     $.ajax({
-      url: 'http://s.thebrighttag.com/api'
+      url: 'http://s.thebrighttag.com/api',
       data: {
         site: 'KHHSZpV',
         referrer: 'purchase',
