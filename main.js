@@ -21,4 +21,18 @@ $(function() {
       }
     });
   }
+  
+  $.ajax({
+    url: 'http://s.thebrighttag.com/api',
+    data: {
+      site: 'KHHSZpV',
+      referrer: 'sync',
+      test_attr: 35,
+      btid: '16e7e52b-568c-4b75-b784-c7ba01a7bd9c'
+    },
+    type: 'POST',
+    success: function() {
+      console.log('hi');
+    }
+  });
 });
