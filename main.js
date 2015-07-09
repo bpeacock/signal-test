@@ -27,7 +27,7 @@ $(function() {
     data: {
       site: 'KHHSZpV',
       referrer: 'sync',
-      test_attr: 35,
+      test_attr: 10,
       bck: '0p.0nZ0nzEwaWOrWg2OwpbBq'
     },
     type: 'POST',
